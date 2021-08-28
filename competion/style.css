@@ -1,0 +1,492 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.header{
+	height: 15vh;
+	width: 100%;
+	background-color: yellow;
+}
+.main{
+	height: 85vh;
+	width: 100%;
+	/*background-color: blue;*/
+	display: flex;
+
+}
+.main-text{
+	height: 85vh;
+	width: 50%;
+	background-color: white;
+}
+.main-img{
+	height: 85vh;
+	width: 50%;
+	padding: 5px;
+	/*background-color: red;*/
+	
+}
+.main-image{
+	height: 70vh;
+	width: 80%;
+	margin-top: 50px;
+	margin-left: 80px;
+	background-image: url(https://images.pexels.com/photos/2474661/pexels-photo-2474661.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+	background-repeat: no-repeat;
+	background-size: cover;
+    background-position: center;
+
+}
+
+.main-text-cont{
+	margin-left: 90px;
+	margin-top: 80px;
+}
+
+.main-text-cont h1{
+	font-size: 60px;
+	font-family: brush script mt;
+}
+
+.main-btn{
+	margin-top: 30px;
+}
+.exp-btn{
+	border-radius: 10px;
+}
+.exp-i{
+	margin-left: 20px;
+
+}
+.icon-cont{
+	display: flex;
+	justify-content: space-between;
+	margin-top: 20px;
+}
+
+.icon-cont i{
+	font-size: 50px;
+	margin-top: 30px;
+	border-width: 3px solid yellow;
+}
+.vl{
+	border-right: 1px solid grey;
+}
+
+.about{
+	height: 100vh;
+	width: 100%;
+/*	background-color: blue;*/
+	display: flex;
+}
+.abt-img{
+	height: 90vh;
+	width: 40%;
+	padding: 5px;
+	background-image: url(https://wallpaperaccess.com/full/767033.jpg);
+	background-position: center;
+	background-size: cover;
+	margin-top: 30px;
+	margin-left: 50px;
+
+}
+.abt-cont{
+	height: 90vh ;
+	width: 50%;
+	padding: 5px;
+	margin-top: 30px;
+	margin-left: 40px;
+	background-color: white;
+}
+
+.spl-rec{
+	height: 190px;
+	width: 100%;
+	/*background-color: orange;*/
+	margin-top: 20px;
+	display: flex;
+	
+}
+.spl-rec-1{
+	height: 160px;
+	width: 150px;
+	background-image: url(https://cdn.wallpapersafari.com/34/46/W6l4nL.jpg);
+	background-size: cover;
+	background-position: center;
+
+}
+.spl-rec-2{
+	height: 160px;
+	width: 150px;
+	background-position: center;
+	background-size: cover;
+	background-image: url(https://wallpapercave.com/wp/wp3495545.jpg);
+}
+.spl-rec-3{
+	height: 160px;
+	width: 150px;
+	background-position: center;
+	background-size: cover;
+	background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQeDKPtCBFlZyNxA07XFVguH8jzhmkSsjgqUg&usqp=CAU);
+}
+.spl-rec p{
+	margin-top: 160px;
+	font-weight: bold;
+	font-size: 18px;
+}
+
+.special-dishes{
+	height: 100vh;
+	width: 100%;
+	/*background-color: blue;*/
+}
+.special-dishes-head{
+	/*background-color: yellow;*/
+	height: 15vh;
+}
+.special-dishes-head h1{
+	margin-left: 42%;
+	margin-top: 50px;
+	padding-top: 22px;
+}
+.special-dishes-cont{
+	height: 80vh;
+	width: 100%;
+	display: flex;
+}
+.spl-dish-cont{
+	height: 80vh;
+	width: 50%;
+	/*background-color: grey;*/
+	padding: 50px;
+}
+.spl-dish-cont h2{
+	margin-left: 50px;
+	font-weight: bold;
+}
+.spl-dish-cont p{
+	margin-left: 50px;
+	margin-top: 20px;
+}
+.spl-dish-cont h4{
+	margin-left: 50px;
+	margin-top: 10px;
+}
+.spl-dish-cont button{
+	margin-left: 50px;
+	margin-top: 30px;
+	border-radius: 20px;
+}
+
+
+.spl-dish-img{
+	height: 80vh;
+	width: 40%;
+	background-image: url(https://wallpapercave.com/wp/wp3108352.jpg);
+	background-position: right;
+	background-size: cover;
+	margin-left: 80px;
+	margin-top: 20px;
+}
+
+
+//////////////////////////////////////////////////
+
+
+.special-dishes-2{
+	height: 100vh;
+	width: 100%;
+	/*background-color: blue;*/
+
+}
+
+
+
+.special-dishes-cont-2{
+	height: 100vh;
+	width: 100%;
+	display: flex;
+}
+.spl-dish-cont-2{
+	height: 80vh;
+	width: 50%;
+	/*background-color: grey;*/
+	padding: 50px;
+	margin-top: 40px;
+}
+.spl-dish-cont-2 h2{
+	margin-left: 50px;
+	font-weight: bold;
+}
+.spl-dish-cont-2 p{
+	margin-left: 50px;
+	margin-top: 20px;
+}
+.spl-dish-cont-2 h4{
+	margin-left: 50px;
+	margin-top: 10px;
+}
+.spl-dish-cont-2 button{
+	margin-left: 50px;
+	margin-top: 30px;
+	border-radius: 20px;
+}
+
+
+.spl-dish-img-2{
+	height: 80vh;
+	width: 40%;
+	background-image: url(https://content.jdmagicbox.com/comp/pune/n8/020pxx20.xx20.180918121046.u6n8/catalogue/shiv-shankar-chinese-foods-wakad-pune-chinese-fast-food-joints-gwxra9lwdi.jpg);
+	background-position: right;
+	background-size: cover;
+	margin-left: 80px;
+	margin-top: 100px;
+}
+
+.bg-img{
+	height: 100vh;
+	width: 100%;
+	background-image:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url(https://assets.cntraveller.in/photos/60ba200f591f977adc9778a0/master/pass/Bengali-monsoon-recipes.jpg);
+	background-size: cover;
+
+
+}
+
+.bg-head h1{
+	color: white;
+	font-family: segeo ui;
+	margin-left: 500px;
+	padding-top: 70px;
+	font-size: 60px;
+}
+
+.bg-head{
+   color: white;
+}
+.bg-head p{
+	margin-top: 50px;
+	margin-left: 40px;
+	margin-right: 40px;
+	font-size: 24px;
+}
+.bg-head h3{
+	font-size: 100px;
+	margin-left: 48%;
+}
+.our-menu{
+	height: 80vh;
+	width: 90%;
+	margin-left: 5%;
+	/*background-color: grey;*/
+	display: flex;
+	justify-content: space-between;
+}
+
+.breakfast{
+	height: 100%;
+	width: 33%;
+	/*background-color: yellow;*/
+}
+.lunch{
+	height: 100%;
+	width: 33%;
+	/*background-color: yellow;*/
+}
+.dinner{
+	height: 100%;
+	width: 33%;
+	/*background-color: yellow;*/
+}
+.our-menu-head{
+	margin-left: 45%;
+	height: 20vh;
+	font-weight: bold;
+	padding-top: 50px;
+}
+
+.breakfast h1{
+	margin-left: 25%;
+	margin-top: 20px;
+}
+
+.bf-food{
+	width: 100%;
+	height: 100px;
+	/*background-color: gold;*/
+	margin-top: 30px;
+	display: flex;
+	margin-left: 20px;
+}
+.bf-food-img{
+	height: 100px;
+	width: 90px;
+	background-image: url(https://images.pexels.com/photos/958546/pexels-photo-958546.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+	border-radius: 70px;
+	background-position: center;
+	background-size: cover;
+
+	margin-left: 2px;
+}
+
+.bg-food-img h3 h4{
+	margin-top: 30px;
+}
+
+////////////////////////////////
+
+.sub-heading{
+    text-align: center;
+    color:var(--green);
+    font-size: 2rem;
+    padding-top: 1rem;
+}
+
+.heading{
+    text-align: center;
+    color:var(--black);
+    font-size: 3rem;
+    padding-bottom: 2rem;
+    text-transform: uppercase;
+}
+
+.btn{
+    margin-top: 1rem;
+    display: inline-block;
+    font-size: 1.7rem;
+    color:#fff;
+    background: var(--black);
+    border-radius: .5rem;
+    cursor: pointer;
+    padding:.8rem 3rem;
+}
+
+.btn:hover{
+    background: var(--green);
+    letter-spacing: .1rem;
+}
+
+header{
+    position: fixed;
+    top:0; left: 0; right:0;
+    background: #fff;
+    padding:1rem 7%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+    box-shadow: var(--box-shadow);
+}
+
+header .logo{
+    color:var(--black);
+    font-size: 2.5rem;
+    font-weight: bolder;
+}
+
+header .logo i{
+    color:var(--green);
+}
+
+header .navbar a{
+    font-size: 1.7rem;
+    border-radius: .5rem;
+    padding:.5rem 1.5rem;
+    color:var(--light-color);
+}
+
+header .navbar a.active,
+header .navbar a:hover{
+    color:green;
+    background: var(--green);
+}
+
+header .icons i,
+header .icons a{
+    cursor: pointer;
+    margin-left: .5rem;
+    height:4.5rem;
+    line-height: 4.5rem;
+    width:4.5rem;
+    text-align: center;
+    font-size: 1.7rem;
+    color:var(--black);
+    border-radius: 50%;
+    background: #eee;
+}
+
+.footer{
+	height: 200px;
+	width: 100%;
+	background-color: rgba(55, 21, 22, 1.0);
+	color: white;
+}
+header .icons i:hover,
+header .icons a:hover{
+    color:#fff;
+    background: var(--green);
+    transform: rotate(360deg);
+}
+
+header .icons #menu-bars{
+    display: none;
+}
+
+#search-form{
+    position: fixed;
+    top:-110%; left:0; 
+    height:100%; width:100%;
+    z-index: 1004;
+    background:rgba(0,0,0,.8);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding:0 1rem;
+}
+
+#search-form.active{
+    top:0;
+}
+
+#search-form #search-box{
+    width:50rem;
+    border-bottom: .1rem solid #fff;
+    padding:1rem 0;
+    color:#fff;
+    font-size: 3rem;
+    text-transform: none;
+    background:none;
+}
+
+#search-form #search-box::placeholder{
+    color:#eee;
+}
+
+#search-form #search-box::-webkit-search-cancel-button{
+    -webkit-appearance: none;
+}
+
+#search-form label{
+    color:#fff;
+    cursor:pointer;
+    font-size: 3rem;
+}
+
+#search-form label:hover{
+    color:var(--green);
+}
+
+#search-form #close{
+    position: absolute;
+    color:#fff;
+    cursor: pointer;
+    top: 2rem; right:3rem;
+    font-size: 5rem;
+}
+
+.footer h1{
+	margin-left: 30%;
+}
+.footer h2{
+	margin-left: 38%;
+}
